@@ -8,6 +8,7 @@ Test Template  Invalid Login
 *** Variables ***
 ${TEST}         testMaster
 
+
 *** Test Cases ***
 #                                               username        password
 Invalid Username Valid Password                 name_error      pass_ok
