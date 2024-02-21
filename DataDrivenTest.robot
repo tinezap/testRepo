@@ -5,6 +5,9 @@ Test Setup  Access QA Tools Login page
 Test Teardown  Close Browsers
 Test Template  Invalid Login
 
+*** Variables ***
+${TEST_BUTTON}          testingBranch1
+
 *** Test Cases ***
 #                                               username        password
 Invalid Username Valid Password                 name_error      pass_ok
