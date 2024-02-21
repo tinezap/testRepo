@@ -1,0 +1,4 @@
+${username},${password}
+name_ok,pass_error
+name_error,pass_ok
+name_error,pass_error
