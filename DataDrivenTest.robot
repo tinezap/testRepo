@@ -16,6 +16,7 @@ Invalid Login
     [Arguments]  ${username}    ${password}
     Input Username  ${username}
     Input Password  ${password}
+    Validate Authenticate Button
     Click Authenticate Button
     Validate if Login is not successful
 
